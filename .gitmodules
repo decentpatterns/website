@@ -1,6 +1,3 @@
-[submodule "dots-patterns"]
-	path = dots-patterns
-	url = https://github.com/decentpatterns/library.git
-[submodule "site/zine"]
-	path = site/zine
-	url = https://github.com/substack/zine.git
+[submodule "library"]
+	path = library
+	url = git@github.com:decentpatterns/library.git
