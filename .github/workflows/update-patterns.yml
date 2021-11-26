@@ -58,7 +58,7 @@ jobs:
 
           # The email of the user that will be displayed as the author of the commit
           # Default: author of the commit that triggered the run
-          # author_email: no-reply@decentpatterns.xyz
+          # author_email: no-reply@decentpatterns.org
 
           # Name of the branch to use, if different from the one that triggered the workflow
           # Default: the branch that triggered the run
