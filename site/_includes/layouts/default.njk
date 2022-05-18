@@ -11,21 +11,13 @@
       name="description"
       content="{% if meta_description %}{{
         meta_description
-      }}{% else %}Decentralization Off The Shelf is a collective effort to further the adoption of decentralized technologies by providing open tooling and resources for the community.{% endif %}"
+      }}{% else %}Decent Patterns is a collective effort to further the adoption of decentralized technologies by providing open tooling and resources for the community.{% endif %}"
     />
     {% if page.fileSlug === 'blog' %}
     <meta name="robots" content="noindex,follow" />
     {% else %}
     <meta name="robots" content="index,follow" />
-    {% endif %} {# include analytics #} {% if helpers.environment !==
-    "development" %}
-    <script
-      async
-      defer
-      data-domain="decentpatterns.xyz"
-      src="https://plausible.io/js/plausible.js"
-    ></script>
-    {% endif %} {# if your site's entire CSS comes in under 14kb, you may want
+    {% endif %} {# include analytics #} {# if your site's entire CSS comes in under 14kb, you may want
     to inline in the head #} {# include main.css if in development mode #} {% if
     helpers.environment === "development" %}
     {# css is injected with style-loader in dev mode, these style rules

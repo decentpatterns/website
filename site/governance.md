@@ -11,17 +11,17 @@ title: Governance
 
 The project's Maintainers hold decision-making power while seeking to represent a balance of the views and the best interests of the community as a whole.
 
-DOTS creates resources and toolkits that help with usability and adoption of decentralized applications.
+Decent Patterns creates resources and toolkits that help with usability and adoption of decentralized applications.
 
 Our core values are: mutual respect, open-mindedness, human-centric approaches, inclusion.
 
-All design assets created are licensed under CC-BY. All code created is open source. The legal entity sponsoring DOTS is Simply Secure, a US 501\(c\)3.
+All design assets created are licensed under CC-BY. All code created is open source.
 
 ### Participants
 
 Participation is open to anyone who wants to join.
 
-The Maintainers can remove misbehaving participants at will for the sake of the common good. We follow Simply Secure's [Code of Conduct](https://simplysecure.org/coc/).
+The Maintainers can remove misbehaving participants at will for the sake of the common good. We follow the [Berlin Code of Conduct](/code-of-conduct).
 
 Participants involved in the development of open source resources are Contributors, participants involved in strategy and fundraising are Advisors.
 
