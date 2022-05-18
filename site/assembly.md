@@ -1,8 +1,8 @@
 ---
 layout: article
-meta_title: DOTS Monthly Assembly
+meta_title: Decent Patterns Monthly Assembly
 body_class: workshop
-title: DOTS Assembly
+title: Decent Patterns Assembly
 ---
 
 # Join our monthly community assembly!

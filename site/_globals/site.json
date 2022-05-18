@@ -1,10 +1,10 @@
 {
-  "name": "Decentralization Off The Shelf",
-  "url": "https://decentpatterns.xyz",
+  "name": "Decent Patterns",
+  "url": "https://decentpatterns.com",
   "author": {
-    "name": "Simply Secure",
-    "email": "team@simplysecure.org",
-    "handle": "@simplysecureorg",
+    "name": "Decent Patterns Contributors",
+    "email": "maintainers@decentpatterns.com",
+    "handle": "@decentpatterns",
     "avatar": "/images/blog/author.jpg"
   },
   "images": {
