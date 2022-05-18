@@ -1,4 +1,4 @@
 set -e
 git submodule update --init
-cd dots-patterns
+cd library
 git pull --ff-only
