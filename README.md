@@ -1,6 +1,6 @@
 # Decentral Patterns Website
 
-This repository holds the sources for the [decentpatterns.org](https://decentpatterns.org) website. It's built using the static site generator Eleventy, the tailwindcss framework and Javascript.
+This repository holds the sources for the [decentpatterns.com](https://decentpatterns.com) website. It's built using the static site generator Eleventy, the tailwindcss framework and Javascript.
 
 ## Installation and development
 

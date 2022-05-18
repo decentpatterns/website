@@ -17,7 +17,7 @@ No fonts or assets used to display the decent patterns website are provided thro
 
 ## Email Communication
 
-If you contact us through any email address @decentpatterns.org your email and any data attached to it are going to be forwarded to maintainers' personal email addresses and are going to be processed and stored by whichever services they may use to provide this email address.
+If you contact us through maintainers@decentpatterns.com your email and any data attached to it are going to be forwarded to maintainers' personal email addresses and are going to be processed and stored by whichever services they may use to provide this email address.
 
 ## Discord
 
