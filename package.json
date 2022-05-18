@@ -1,12 +1,12 @@
 {
-  "name": "dots-website",
+  "name": "decent-patterns-website",
   "version": "1.0.0",
-  "description": "Decentral Patterns Website",
+  "description": "Decent Patterns Website",
   "repository": {
     "type": "git",
-    "url": "https://github.com/simplysecure/dots-website"
+    "url": "https://github.com/decentpatterns/website"
   },
-  "author": "Simply Secure",
+  "author": "Decent Patterns contributors and Simply Secure",
   "license": "CC0-1.0",
   "private": true,
   "scripts": {
