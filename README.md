@@ -4,7 +4,7 @@ This repository holds the sources for the [decentpatterns.com](https://decentpat
 
 ## Installation and development
 
-First, make sure that you have initialized and updated the `dots-patterns` submodule.
+First, make sure that you have initialized and updated the `library` submodule.
 
 ```
 git submodule update --init
@@ -26,7 +26,7 @@ We use prettier and eslint to maintain a consistent and maintainable code style.
 
 The `site` folder contains all the templates, partials and content - which Eleventy will parse into HTML for us. Within our `site` folder, lives a `globals` folder. Here you'll find a `site.json` file - for general config stuff e.g site name, author, email, social media links etc. You'll also find a `navigation.json` file, which we use to loop over in our nav partial to generate our navigation. It's possible to hide navigation entries from the production deployment by setting `"draft": true` on them. There's also a `helpers.js` file, which just contains a simple environment helper.
 
-The repository [dots-patterns](https://github.com/decentpatterns/patterns) contains markdown-formatted patterns that are included in the site. The repository contents are symlinked into the folders `site/library` and `site/topics`.
+The repository [library](https://github.com/decentpatterns/library) contains markdown-formatted patterns that are included in the site. The repository contents are symlinked into the folders `site/library` and `site/topics`.
 
 ### Assets
 
