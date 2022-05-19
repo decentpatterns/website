@@ -1,4 +1,4 @@
-# Decentral Patterns Website
+# Decent Patterns Website
 
 This repository holds the sources for the [decentpatterns.com](https://decentpatterns.com) website. It's built using the static site generator Eleventy, the tailwindcss framework and Javascript.
 
@@ -43,3 +43,5 @@ The repository root contains configuration files for the various tools we use. I
 Type the `npm run build` command to minify scripts, styles and run Purgecss.
 
 Purge will cross reference your templates/HTML with all those Tailwind classes and will remove any classes you haven't used - pretty cool huh?
+
+© Decent Patterns contributors and Simply Secure. Licensed CC-BY.
