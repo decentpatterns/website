@@ -44,4 +44,4 @@ Type the `npm run build` command to minify scripts, styles and run Purgecss.
 
 Purge will cross reference your templates/HTML with all those Tailwind classes and will remove any classes you haven't used - pretty cool huh?
 
-© Decent Patterns contributors and Simply Secure. Licensed CC-BY.
+© Decent Patterns contributors and Superbloom. Licensed CC-BY.
