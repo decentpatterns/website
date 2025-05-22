@@ -1,4 +1,6 @@
 const fs = require("fs");
+const { execSync } = require("child_process");
+const path = require("path");
 
 /**
  * Assemble related patterns by loading the page source from disk
@@ -35,6 +37,39 @@ const categoryName = (data) => {
   return category.data.title;
 };
 
+const getPublishedDate = (data) => {
+  try {
+    const filePath = data.page.inputPath;
+
+    // Extract pattern name from path (e.g., site/library/visual-hash/index.md -> visual-hash)
+    const pathParts = filePath.split("/");
+    const patternName = pathParts[pathParts.length - 2];
+
+    // Query git history
+    const libraryPatternPath = `patterns/${patternName}/index.md`;
+    const workingDir = path.join(process.cwd(), "library");
+    const gitCommand = `git log -1 --format="%ci" -- "${libraryPatternPath}"`;
+
+    const result = execSync(gitCommand, {
+      cwd: workingDir,
+      encoding: "utf-8",
+    }).trim();
+
+    if (result) {
+      const date = new Date(result);
+      return date.toLocaleDateString("en-us");
+    }
+  } catch (error) {
+    console.warn(
+      `Could not get git date for pattern ${data.page.inputPath}:`,
+      error.message
+    );
+  }
+
+  // Fallback to file date
+  return data.page.date.toLocaleDateString("en-us");
+};
+
 module.exports = {
   // environment helper
   environment: process.env.ELEVENTY_ENV,
@@ -45,4 +80,6 @@ module.exports = {
   relatedPatterns: getRelatedPatterns,
 
   categoryName,
+
+  publishedDate: getPublishedDate,
 };
