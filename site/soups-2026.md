@@ -6,11 +6,12 @@ meta_title: Call for Participation — Local-first Data Lab @ SOUPS 2026
 
 # Local-first Data Lab @ SOUPS 2026
 
+**Monday, August 24, 2026 in Hannover, Germany**
 **A Half-Day Workshop on UX Patterns for Local-First Privacy-Enhancing Technologies**
 
 <a class="link-reference" href="https://tally.so/r/yPqL0d">Sign up here</a>
 
-We invite designers, researchers, and practitioners working on privacy-enhancing technologies and local-first software to join us for a hands-on design workshop at SOUPS 2026.
+We invite designers, researchers, and practitioners working on privacy-enhancing technologies and local-first software to join us for a hands-on design workshop at [SOUPS 2026](https://soups.page/).
 
 
 ## What is this workshop?
